@@ -379,8 +379,8 @@ Hero
   height: 100%;
   width: 100%;
   outline: 0.3rem solid var(--clr-primary-5);
-  right: -2rem;
-  top: 2rem;
+  right: -1.5rem;
+  top: 1.5rem;
   border-radius: var(--radius);
 }
 .hero {
@@ -390,6 +390,7 @@ Hero
   height: calc(100vh - 5rem);
   display: grid;
   place-items: center;
+  row-gap: 3rem;
 }
 .hero-icons {
   justify-items: start;
